@@ -1,0 +1,22 @@
+{
+  "hackrf": {
+    "center_frequency_hz": 2400000000,
+    "sample_rate_hz": 2000000,
+    "baseband_filter_bandwidth_hz": 1750000,
+    "lna_gain": 32,
+    "vga_gain": 24
+  },
+  "mqtt": {
+    "broker_host": "localhost",
+    "broker_port": 1883,
+    "client_id": "usv_hackrf_json_config",
+    "topic": "usv/signals/hackrf_raw_iq",
+    "control_topic": "usv/hackrf/control",
+    "qos": 0,
+    "keepalive_s": 60,
+    "username": "",
+    "password": ""
+  },
+  "data_queue_max_size": 100,
+  "log_level": "INFO"
+}

@@ -1,0 +1,63 @@
+# CMake build directory
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cbp
+*.depend
+*.layout
+*.ninja
+compile_commands.json
+
+# CMake FetchContent dependencies (often downloaded into the build directory's _deps folder)
+_deps/
+
+# Executables and libraries (if they are not placed in build/ by some custom rule)
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+hackrf_mqtt_transmitter
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# IDE and editor specific files
+.vscode/
+*.code-workspace
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Log files (if generated to files)
+*.log
+*.log.*
+
+# Doxygen or other documentation generator output (if used)
+# html/
+# latex/
+# doxygen_sqlite3.db
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# Configuration files that might contain local secrets
+# (config.json is versioned as a template, but local overrides could be ignored)
+# config.local.json
